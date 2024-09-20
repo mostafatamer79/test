@@ -26,7 +26,7 @@ hide_streamlit_style = """
 .viewerBadge_container__r5tak {visibility: hidden;}
 </style>
 <script>
-const link = document.querySelector('.viewerBadge_container__r5tak');
+const link = document.querySelector('.viewerBadge_link__qRIco');
 
     // Add an id attribute
     link.setAttribute('id', 'myDynamicId');
