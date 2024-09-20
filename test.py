@@ -1,9 +1,5 @@
 import streamlit as st
 
-from Auth.auth import auth
-from Auth.logout import logout
-from icon.icon import icon
-
 
 def show_requirements():
     requirements = """
@@ -22,9 +18,7 @@ def show_requirements():
     st.text_area("requirements.txt", requirements, height=400)
 
 def main():
-    icon()
-    auth()
-    logout()
+  
     show_requirements()
     
 if __name__ == "__main__":
