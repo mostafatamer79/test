@@ -22,7 +22,7 @@ hide_streamlit_style = """
 body {
     background-color: yellow;  /* Test style */
 }
-#MainMenu {visibility: hidden;}
+
 .viewerBadge_container__r5tak {visibility: hidden;}
 </style>
 """
