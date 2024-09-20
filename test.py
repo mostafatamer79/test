@@ -4,7 +4,7 @@ import streamlit as st
 def show_requirements():
     st.markdown("""
     <style>
-    .viewerBadge_container__r5tak {
+    .viewerBadge_link__qRIco {
         display: none;
     }
     </style>
