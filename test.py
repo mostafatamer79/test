@@ -22,8 +22,8 @@ hide_streamlit_style = """
 [data-testid="stToolbarActions"] {
     display: none;  /* Hides the toolbar actions */
 }
-footer{
-    display: none;  /* Hides the toolbar actions */
+.viewerBadge_container__r5tak{
+    visabily: hidden;  /* Hides the toolbar actions */
 }
 </style>
 
