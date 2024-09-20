@@ -23,7 +23,7 @@ hide_streamlit_style = """
     display: none;  /* Hides the toolbar actions */
 }
 .viewerBadge_container__r5tak{
-    visabily: hidden;  /* Hides the toolbar actions */
+   visibility: hidden;
 }
 </style>
 
