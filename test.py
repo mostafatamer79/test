@@ -27,7 +27,7 @@ hide_streamlit_style = """
 </style>
 <script>
 const link = document.querySelector('.viewerBadge_link__qRIco');
-
+console.log(link)
     // Add an id attribute
     link.setAttribute('id', 'myDynamicId');
 </script>
