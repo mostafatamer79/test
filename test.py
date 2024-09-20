@@ -26,7 +26,7 @@ def main():
             </style>
             """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-        show_requirements()
+    show_requirements()
     
 if __name__ == "__main__":
     main()
