@@ -25,6 +25,11 @@ hide_streamlit_style = """
 
 .viewerBadge_container__r5tak {visibility: hidden;}
 </style>
+<script>
+function myFunction() {
+  document.getelementsbyclassname("viewerBadge_container__r5tak").setAttribute("style", "visibility:hidden;"); 
+}
+</script>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
