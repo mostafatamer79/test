@@ -19,7 +19,13 @@ def show_requirements():
     st.text_area("requirements.txt", requirements, height=400)
 
 def main():
-    hide_streamlit_style ="""
+  
+
+    show_requirements()
+    
+if __name__ == "__main__":
+    main()
+      hide_streamlit_style ="""
     <style>
     body {
         background-color: yellow;  /* Test style */
@@ -29,8 +35,3 @@ def main():
     </style>
     """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-    show_requirements()
-    
-if __name__ == "__main__":
-    main()
