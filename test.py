@@ -19,12 +19,8 @@ def show_requirements():
 # CSS injection to hide elements and change the background color
 hide_streamlit_style = """
 <style>
-body {
-    background-color: yellow;  /* Test style */
-}
-[data-testid="stToolbarActions"] {
-    display: none;  /* Hides the toolbar actions */
-}
+
+
 .viewerBadge_container__r5tak {visibility: hidden;}
 </style>
 """
