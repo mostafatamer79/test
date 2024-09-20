@@ -1,10 +1,8 @@
 import streamlit as st
 
-
 def show_requirements():
-    
     requirements = """
-    streamlits
+    streamlit
     selenium
     webdriver-manager
     pandas
@@ -18,20 +16,20 @@ def show_requirements():
     st.markdown("Below are the required packages for this project:")
     st.text_area("requirements.txt", requirements, height=400)
 
-def main():
-  
+# CSS injection to hide elements and change the background color
+hide_streamlit_style = """
+<style>
+body {
+    background-color: yellow;  /* Test style */
+}
+#MainMenu {visibility: hidden;}
+.viewerBadge_container__r5tak {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+def main():
     show_requirements()
-    
+
 if __name__ == "__main__":
     main()
-    hide_streamlit_style ="""
-    <style>
-    body {
-        background-color: yellow;  /* Test style */
-    }
-    #MainMenu {visibility: hidden;}
-    .viewerBadge_container__r5tak {visibility: hidden;}
-    </style>
-    """
-    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
