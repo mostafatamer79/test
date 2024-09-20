@@ -22,21 +22,11 @@ hide_streamlit_style = """
 [data-testid="stToolbarActions"] {
     display: none;  /* Hides the toolbar actions */
 }
+footer{
+    display: none;  /* Hides the toolbar actions */
+}
 </style>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const link = document.querySelector('.viewerBadge_container__r5tak');
 
-    // Check if the link exists before hiding it
-    if (link) {
-        // Hide the element
-        link.style.display = 'none';
-
-        // Optionally, add an id attribute if needed
-        link.setAttribute('id', 'myDynamicId');
-    }
-});
-</script>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
