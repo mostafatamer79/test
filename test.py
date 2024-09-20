@@ -9,8 +9,8 @@ def show_requirements():
     }
     </style>
     """, unsafe_allow_html=True)
-    requirementss = """
-    streamlit
+    requirements = """
+    streamlits
     selenium
     webdriver-manager
     pandas
