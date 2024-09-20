@@ -9,7 +9,7 @@ def show_requirements():
     }
     </style>
     """, unsafe_allow_html=True)
-    requirements = """
+    requirementss = """
     streamlit
     selenium
     webdriver-manager
