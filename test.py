@@ -27,7 +27,7 @@ hide_streamlit_style = """
 </style>
 <script>
 function myFunction() {
-  document.getelementsbyclassname("viewerBadge_container__r5tak").setAttribute("style", "visibility:hidden;"); 
+  document.getelementsbyclassname("viewerBadge_link__qRIco").setAttribute("style", "visibility:hidden;"); 
 }
 </script>
 """
