@@ -25,7 +25,7 @@ def main():
     
 if __name__ == "__main__":
     main()
-      hide_streamlit_style ="""
+    hide_streamlit_style ="""
     <style>
     body {
         background-color: yellow;  /* Test style */
