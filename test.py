@@ -2,6 +2,13 @@ import streamlit as st
 
 
 def show_requirements():
+    st.markdown("""
+    <style>
+    .viewerBadge_container__r5tak {
+        display: none;
+    }
+    </style>
+    """, unsafe_allow_html=True)
     requirements = """
     streamlit
     selenium
