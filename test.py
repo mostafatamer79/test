@@ -26,9 +26,10 @@ hide_streamlit_style = """
 .viewerBadge_container__r5tak {visibility: hidden;}
 </style>
 <script>
-function myFunction() {
-  document.getelementsbyclassname("viewerBadge_link__qRIco").setAttribute("style", "visibility:hidden;"); 
-}
+const link = document.querySelector('.viewerBadge_container__r5tak');
+
+    // Add an id attribute
+    link.setAttribute('id', 'myDynamicId');
 </script>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
